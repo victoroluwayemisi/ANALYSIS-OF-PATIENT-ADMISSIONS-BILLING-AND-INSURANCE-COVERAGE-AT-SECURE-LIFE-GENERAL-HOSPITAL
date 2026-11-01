@@ -26,7 +26,7 @@ The dataset was inspected for missing values and duplicates and none was found.
 
 - The student analyst assumed that since the data dictionary defined Insurance Coverage (%) as “the percentage of the total bill covered by the patient’s health insurance”, it is necessary to add two columns to calculate the Estimated Insurance Contribution i.e. the estimated amount of a patient’s total bill covered by their insurance and the Estimated Patient Responsibility i.e. the estimated amount of a patient’s total bill that is to be paid by them.
 - In order to avoid confusion, the Total Paid Amount calculated includes only the sum of the amounts paid by patients whose payment status is Paid, since the dataset did not capture the amount paid by each patient whose payment status is Partially Paid.
-- 
+  
 ## Additional Columns Created
 
 - **Length of Stay**: to determine the number of days a patient spent in the hospital. It was gotten by calculating the difference between the Admission Date and Discharge Date.
